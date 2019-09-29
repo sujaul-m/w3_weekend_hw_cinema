@@ -4,9 +4,9 @@ require_relative('models/ticket')
 
 require('pry')
 
+Ticket.delete_all()
 Customer.delete_all()
 Film.delete_all()
-Ticket.delete_all()
 
 
   film1 = Film.new({
